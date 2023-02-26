@@ -34,6 +34,10 @@ header {
                     border-bottom: 4px solid toggleTheme("hovered-page");
                 }
             }
+
+            img {
+                width: 24px;
+            }
         }
 
         a.theme {

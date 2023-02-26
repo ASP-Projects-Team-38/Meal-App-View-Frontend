@@ -105,6 +105,9 @@ header nav a::after {
 .theme--dark header nav a:hover {
   border-bottom: 4px solid #7d93f9;
 }
+header nav a img {
+  width: 24px;
+}
 header nav a.theme {
   margin-left: 40px;
   border-bottom: none;
