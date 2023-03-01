@@ -24,35 +24,35 @@ function setTheme(themeName) {
     body.className = themeName;
 
     if (themeName == 'theme--dark') {
-        logoImg.setAttribute("src", "./assets/logo-dark.svg");
+        logoImg.setAttribute("src", "../assets/logo-dark.svg");
 
         if (pinIcon != null) {
-            pinIcon.setAttribute("src", "./assets/icon-pin-dark.svg");
+            pinIcon.setAttribute("src", "../assets/icon-pin-dark.svg");
         }
         if (calIcon != null) {
-            calIcon.setAttribute("src", "./assets/icon-calendar-dark.svg");
+            calIcon.setAttribute("src", "../assets/icon-calendar-dark.svg");
         }
         if (switchIcon != null) {
-            switchIcon.setAttribute("src", "./assets/icon-switch-dark.svg");
+            switchIcon.setAttribute("src", "../assets/icon-switch-dark.svg");
         }
         if (themeIcon != null) {
-            themeIcon.setAttribute("src", "./assets/icon-theme-dark.svg");
+            themeIcon.setAttribute("src", "../assets/icon-theme-dark.svg");
         }
     }
     else {
-        logoImg.setAttribute("src", "./assets/logo-light.svg");
+        logoImg.setAttribute("src", "../assets/logo-light.svg");
 
         if (pinIcon != null) {
-            pinIcon.setAttribute("src", "./assets/icon-pin-light.svg");
+            pinIcon.setAttribute("src", "../assets/icon-pin-light.svg");
         }
         if (calIcon != null) {
-            calIcon.setAttribute("src", "./assets/icon-calendar-light.svg");
+            calIcon.setAttribute("src", "../assets/icon-calendar-light.svg");
         }
         if (switchIcon != null) {
-            switchIcon.setAttribute("src", "./assets/icon-switch-light.svg");
+            switchIcon.setAttribute("src", "../assets/icon-switch-light.svg");
         }  
         if (themeIcon != null) {
-            themeIcon.setAttribute("src", "./assets/icon-theme-light.svg");
+            themeIcon.setAttribute("src", "../assets/icon-theme-light.svg");
         }  
     }
 }

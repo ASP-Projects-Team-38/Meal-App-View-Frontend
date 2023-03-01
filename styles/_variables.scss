@@ -7,7 +7,7 @@ $font-secondary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
 /// ----- Light Theme ----- \\\
 // Page Colours
 $page-bg-light: #fff;
-$page-on-bg-light: #000;
+$page-on-bg-light: #222;
 $brand-colour-light: #467397;
 
 // Nav Link Colours
@@ -41,6 +41,9 @@ $cal-box-border-light: #eee;
 $cal-box-label-light: #eee;
 $cal-box-border-hover-light: #ddd;
 $cal-red-light: #DD4646;
+
+// Error Message Colours
+$error-msg-light: #DD4646;
 
 // Placeholder Colours
 $placeholder-bg-light: #D9D9D9;
@@ -84,6 +87,9 @@ $cal-box-border-dark: #111;
 $cal-box-label-dark: #111;
 $cal-box-border-hover-dark: #000;
 $cal-red-dark: #FF3232;
+
+// Error Message Colours
+$error-msg-dark: #FFBBBB;
 
 // Placeholder Colours
 $placeholder-bg-dark: #555;
